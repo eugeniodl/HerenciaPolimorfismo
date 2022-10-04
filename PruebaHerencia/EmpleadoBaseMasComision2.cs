@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PruebaHerencia
 {
-    internal class EmpleadoBaseMasComision2 : EmpleadoPorComision
+    public class EmpleadoBaseMasComision2 : EmpleadoPorComision
     {
         private decimal salarioBase;
         public EmpleadoBaseMasComision2(string nombre, string apellido, string nss,

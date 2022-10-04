@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PruebaHerencia
 {
-    internal class EmpleadoPorComision : object
+    public class EmpleadoPorComision : object
     {
         private string primerNombre;
         private string apellidoPaterno;
@@ -83,7 +83,8 @@ namespace PruebaHerencia
                 "{0}: {1} {2}\n{3}: {4}\n{5}: {6:C}\n{7}: {8:F2}",
                 "empleado por comisión", PrimerNombre, ApellidoPaterno,
                 "número de seguro social", NumeroSeguroSocial,
-                "vantas brutas", VentasBrutas, "tarifa de comisión", TarifaComision);
+                "ventas brutas", VentasBrutas, "tarifa de comisión", TarifaComision);
+
         }
     }
 }
