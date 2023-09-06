@@ -1,6 +1,6 @@
 ﻿namespace Modelo
 {
-    public class Venta
+    public class Venta : object
     {
         // Atributos
         public string Cliente { get; set; }
