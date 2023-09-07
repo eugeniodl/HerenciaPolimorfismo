@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelo", "Modelo\Modelo.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pjVentaHeredada", "pjVentaHeredada\pjVentaHeredada.csproj", "{9CD9C5F5-EF59-492E-B7DE-A3A99DBF833A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaHerencia", "PruebaHerencia\PruebaHerencia.csproj", "{8030EB66-44AD-423A-908C-AE60C97ABDB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9CD9C5F5-EF59-492E-B7DE-A3A99DBF833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD9C5F5-EF59-492E-B7DE-A3A99DBF833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD9C5F5-EF59-492E-B7DE-A3A99DBF833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8030EB66-44AD-423A-908C-AE60C97ABDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8030EB66-44AD-423A-908C-AE60C97ABDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8030EB66-44AD-423A-908C-AE60C97ABDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8030EB66-44AD-423A-908C-AE60C97ABDB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
