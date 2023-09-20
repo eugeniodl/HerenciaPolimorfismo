@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pjVentaHeredada", "pjVentaH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaHerencia", "PruebaHerencia\PruebaHerencia.csproj", "{0B9FA78E-DE02-4D02-B597-8B51E2BF897E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystemTest", "PayrollSystemTest\PayrollSystemTest.csproj", "{409A9967-AE9D-4A6A-B8A2-3EC3D7FC0549}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0B9FA78E-DE02-4D02-B597-8B51E2BF897E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9FA78E-DE02-4D02-B597-8B51E2BF897E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B9FA78E-DE02-4D02-B597-8B51E2BF897E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409A9967-AE9D-4A6A-B8A2-3EC3D7FC0549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409A9967-AE9D-4A6A-B8A2-3EC3D7FC0549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409A9967-AE9D-4A6A-B8A2-3EC3D7FC0549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409A9967-AE9D-4A6A-B8A2-3EC3D7FC0549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
