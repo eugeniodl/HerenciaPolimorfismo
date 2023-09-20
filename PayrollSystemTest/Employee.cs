@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PayrollSystemTest
 {
-    // Employee abastract base class.
+    // Employee abstract base class.
     public abstract class Employee
     {
         public string FirstName { get; }
