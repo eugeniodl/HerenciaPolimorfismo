@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pjVentaHeredada", "pjVentaH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaHerencia", "PruebaHerencia\PruebaHerencia.csproj", "{8030EB66-44AD-423A-908C-AE60C97ABDB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollSystemTest", "PayrollSystemTest\PayrollSystemTest.csproj", "{BD4BAE95-6EB4-4AE0-8A7D-5CD51CA46701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollSystemTest", "PayrollSystemTest\PayrollSystemTest.csproj", "{BD4BAE95-6EB4-4AE0-8A7D-5CD51CA46701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayableInterfaceTest", "PayableInterfaceTest\PayableInterfaceTest.csproj", "{5F808E35-09A7-4630-B1F4-E4CA9BFB4216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BD4BAE95-6EB4-4AE0-8A7D-5CD51CA46701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4BAE95-6EB4-4AE0-8A7D-5CD51CA46701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4BAE95-6EB4-4AE0-8A7D-5CD51CA46701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F808E35-09A7-4630-B1F4-E4CA9BFB4216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F808E35-09A7-4630-B1F4-E4CA9BFB4216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F808E35-09A7-4630-B1F4-E4CA9BFB4216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F808E35-09A7-4630-B1F4-E4CA9BFB4216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
