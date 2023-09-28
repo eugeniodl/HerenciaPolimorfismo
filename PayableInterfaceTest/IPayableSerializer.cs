@@ -8,6 +8,16 @@ namespace PayableInterfaceTest
 {
     public interface IPayableSerializer : IDisposable
     {
-        void WritePayableObjects(List<IPayable> payableObjects);
+        FileStream Fs { get; set; }
+        StreamWriter Sw { get; set; }
+        void WritePayableObjects(List<IPayable> payableObjects)
+        {
+            foreach (var payable in payableObjects)
+            {
+                Sw.WriteLine($"{payable}");
+                Sw.WriteLine(
+                    $"payment due: {payable.GetPaymentAmount():C}\n");
+            }
+        }
     }
 }
